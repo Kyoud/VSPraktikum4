@@ -1,0 +1,7 @@
+namespace cpp download
+
+service download {
+	i32 ping(),
+	i32 download(1:string pack, i32 length)
+
+}
